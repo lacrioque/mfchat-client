@@ -1,0 +1,32 @@
+{
+  "name": "mfchat_client",
+  "version": "0.0.1",
+  "description": "A Client Application for a Chat Solution with dedicatet ACL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lacrioque/mfchat-client.git"
+  },
+  "keywords": [
+    "chat",
+    "acl",
+    "server",
+    "socket.io"
+  ],
+  "author": "lacrioque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacrioque/mfchat-client/issues"
+  },
+  "homepage": "https://github.com/lacrioque/mfchat-client",
+  "dependencies": {
+    "express": "^4.10.7",
+    "express-session": "^1.10.1",
+    "node-sass": "^2.0.0-beta",
+    "q": "^1.1.2",
+    "socket.io": "^1.2.1"
+  }
+}
